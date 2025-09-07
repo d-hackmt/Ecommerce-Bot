@@ -2,8 +2,20 @@ import importlib.metadata
 packages = [
     "langchain",
     "python-dotenv",
-    "langchain-core",
-    "streamlit"
+    "langchain_core",
+    "streamlit",
+    "fastapi",
+    "html5lib",
+    "jinja2",
+    "langchain-astradb",
+    "langchain-google-genai",
+    "langchain-groq",
+    "lxml",
+    "python-multipart",
+    "selenium",
+    "undetected-chromedriver",
+    "uvicorn",
+    "structlog"
 ]
 for pkg in packages:
     try:
@@ -11,7 +23,3 @@ for pkg in packages:
         print(f"{pkg}=={version}")
     except importlib.metadata.PackageNotFoundError:
         print(f"{pkg} (not installed)")
-
-# # serve static & templates
-# app.mount("/static", StaticFiles(directory="../static"), name="static")
-# templates = Jinja2Templates(directory="../templates")

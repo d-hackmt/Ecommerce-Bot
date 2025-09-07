@@ -8,7 +8,6 @@ wheels/
 
 # Virtual environments
 .venv
-# Virtual environment
 env/
 venv/
 
@@ -27,3 +26,5 @@ venv/
 .ipynb_checkpoints/
 
 archive/
+
+data/
