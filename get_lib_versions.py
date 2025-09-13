@@ -4,18 +4,7 @@ packages = [
     "python-dotenv",
     "langchain_core",
     "streamlit",
-    "fastapi",
-    "html5lib",
-    "jinja2",
-    "langchain-astradb",
-    "langchain-google-genai",
-    "langchain-groq",
-    "lxml",
-    "python-multipart",
-    "selenium",
-    "undetected-chromedriver",
-    "uvicorn",
-    "structlog"
+    "langgraph"
 ]
 for pkg in packages:
     try:
